@@ -1,0 +1,363 @@
+.fundoVerde{
+    background-color: #06AA48;;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.containerBrasileirao{
+    display: flex;
+}
+
+.corTexto{
+    color: white;
+}
+
+.corTextoCabecalhoDireita{
+    color: white;
+}
+
+.espacamentoCabecalho{
+    padding-right: 6px;
+}
+
+.espacamentoVerde{
+    padding-right: 6px;
+}
+
+.op-05{
+    opacity: 0.5;
+}
+
+.container-fluide{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.fonteBrasileirao{
+    font-size: 30px;
+}
+
+.hoverCabecalho{
+    padding: 0px;
+}
+
+ul.hoverCabecalho:hover{
+    border-bottom: 0px solid transparent;
+}
+
+ul.navbar-nav.hoverCabecalho li:hover{
+    border-bottom: 3px solid transparent;
+    border-color: unset;
+}
+
+a.nav-link.corTexto:hover{
+    color: white !important;
+    opacity: unset;
+}
+
+.tamanhoMenu{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.fundoBotaoBuscar{
+    background-color: #0d813b;
+    border: none;
+    border-radius: 8px;
+}
+
+.fundoBotaoBuscar::placeholder{
+    color: white;
+}
+
+.d-flex {
+    display: flex !important;
+    align-items: center;
+}
+
+.tamanhoTextoClas{
+    font-size: 22px;
+}
+
+.tabela{
+    display: flex;
+    margin: 12px;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.widthTabela{
+    width: 60%;
+}
+
+.widthJogos{
+    width: 40%;
+}
+
+.tabela1{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.tabela2{
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    font-family: sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: sans-serif;
+}
+
+th, td {
+    border-bottom: 1px solid lightgray;
+    padding: 8px; 
+}
+
+.tabela tbody tr td:nth-child(odd):not(:first-child){
+    background-color: #cbcbcb97;
+}
+
+.teans {
+    text-align: left;
+    border-right: 1px solid lightgray;
+}
+
+.teans2 {
+    text-align: left;
+    border-top: 1px solid lightgray;
+}
+
+.teans3 {
+    text-align: center;
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    height: 30px;
+}
+
+.fonte-th{
+    font-size: 10px;
+    text-align: left;
+    color: rgb(163, 161, 161);
+}
+
+.alinhar-numero{
+    text-align: right;
+}
+
+.fonte-titulo-tabela{
+    font-size: 25px;
+    text-align: left;
+}
+
+.borda-divisao{
+    border-right: 1px solid lightgray;
+}
+
+.margin-escudo{
+    height: 24px;
+    border-right: 1px dotted lightgray;
+}
+
+.container-mosaico-times{
+    position: absolute;
+    display: none;
+    width: 220px;
+    height: 280px;
+    background-color: white;
+    box-shadow: black 1px 1px 1px 1px;
+    border: 8px;
+}
+.container-shield:hover .container-mosaico-times{
+    display: block;
+}
+
+.mosaico{
+    display: flex;
+}
+
+.mosaico div{
+    color: black;
+}
+
+tbody{
+    align-items: center;
+}
+
+.jogos{
+    display: flex;
+}
+
+.game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.place-time{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.in-game{
+    display: flex;
+    width: 85%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    height: 60px;
+    align-content: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid lightgray;
+}
+
+.playing-team {
+    align-items: center;
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+}
+    
+.fonteDia{
+    font-size: 14px;
+}
+
+.tamanhoPonto{
+    font-size: 23px;
+}
+
+.rodadaTitulo{
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+@media (max-width: 1100px) {
+    .container6{
+        display: none;
+    }
+
+    .contaner3 div {
+        width: 30%;
+        font-size: 15px;
+    }
+
+    .fonte2{
+        font-size: 15px;
+    }
+
+    table {
+      font-size: 14px;
+      margin-top: 20px;
+      width: 100%;
+      overflow-x: auto;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+    }
+}
+
+  @media (max-width: 940px){
+    .fonte2{
+        font-size: 17px;
+    }
+
+    .container4 {
+        display: flex;
+        text-align: center;
+        height: 60px;
+        background-color: rgb(77, 201, 77);
+        align-content: center;
+        align-items: center;
+        margin: auto;
+
+    }
+
+    .buscar{
+        display: none;
+    }
+
+    .container-shield{
+        display: none;
+    }
+
+    .menu2{
+        display: none;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+    }
+
+    .tabela{
+        display: flex;
+        margin: auto;
+        width: 100%;
+        font-family: sans-serif;
+        flex-direction: column;
+    }
+
+    .widthTabela {
+        width: 100%;
+    }
+
+    .widthJogos{
+        width: 100%;
+    }
+  }
+  
+  @media (max-width: 760px) {
+    .fonte{
+        font-size: 25px;
+    }
+    .fonte2{
+        font-size: 17px;
+    }
+
+    .tabela2{
+        width: 60%;
+    }
+
+    .container-shield{
+        display: none;
+    }
+  
+    table {
+      font-size: 12px;
+    }
+
+    .fundoVerde {
+        background-color: #06AA48;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .fundoBotaoBuscar{
+        display: none;
+    }
+
+    .corTextoCabecalhoDireita {
+        display: none;
+    }
+
+    .widthJogos{
+        width: 100%;
+    }
+  
+  }
